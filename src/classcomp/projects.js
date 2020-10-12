@@ -8,13 +8,13 @@ class Project extends React.Component {
         name: "Book Lovers",
         git: "https://github.com/Leaf1204/bookshelf",
         live: "https://booklovers.vercel.app/",
-        img: ""
+        img: "https://i.imgur.com/xgDKO61.png?1"
       },
       {
         name: "Dopamine Box",
         git: "https://github.com/Leaf1204/project2",
-        live: "",
-        img: ""
+        live: "https://lfzenproject2.herokuapp.com/",
+        img: "https://i.imgur.com/T5C09bS.png?1"
       },
       {
         name: "Mock Store website",
