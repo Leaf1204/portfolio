@@ -28,7 +28,7 @@ class Project extends React.Component {
   render() {
     return this.state.map((item) => {
       return (
-        <div className="card">
+        <div className="flex_card">
           <h3>{item.name}</h3>
           <a href={item.git}>
             <h6>{item.git}</h6>
@@ -37,7 +37,7 @@ class Project extends React.Component {
             <h6>{item.live}</h6>
           </a>
 
-          <img className="center-block" src={item.img} alt="" />
+          <img className="image" src={item.img} alt="" />
         </div>
       );
     });
